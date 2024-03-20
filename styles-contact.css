@@ -1,0 +1,148 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* -- This is the beginning of my 201 Contact Web Page Project -- */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/3d-palm-trees-against-sunset-sky.jpg");	alt="Palm Tree Background"
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+/*----background palm tree image----*/	
+}
+
+.center {
+    width: 800px;
+	padding: 3%;
+    margin: 100px auto;
+ 	background: rgba(40, 119, 180, 100); /*solid background*/
+	text-align: center;
+	border: 4px double white;
+	/*added double line border above*/
+} 
+
+   
+#logo {
+    width: 200px
+	margin-bottom: 16px;
+	margin-top: 50px;
+	border: 5px
+	text-align: center;
+	
+}
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/rwi8oex.css"> */
+	font-family: "cooper-black-std", serif;
+	font-size: 1.5em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/rwi8oex.css"> */
+	font-family: "joly-display", sans-serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 20px 0px; /*added space between first and second line*/
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/rwi8oex.css"> */
+	font-family: "filosofia", serif;
+	font-size: 1.2em;
+    line-height: 1.9;
+    color: #fff;
+}
+nav{
+	font-family:"cooper-black-std", serif;
+	font-size: 1.3em;
+	width: 400px;
+	margin: 0 auto;
+	outline: red
+	outline-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+  }
+  
+    
+nav li{
+	display: inline;
+  }
+  
+nav a{
+	display: inline-block;
+	padding: 10px;
+  }
+  
+a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color:black; /*black text*/
+	background: orange;
+}
+/*----color for when you hover over each of the buttons----*/
